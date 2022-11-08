@@ -22,19 +22,3 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
     app.listen(PORT, () => console.log('Now listening'));
 })
-
-
-
-// Server or app.js
-// <Route path='/' component=Homepage>
-// <Route path='/login' component=Login>
-
-
-//Components or pages
-/*
-const Homepage() {
-    return (
-        <div> This is my HomePage</div>
-    )
-}
-*/
